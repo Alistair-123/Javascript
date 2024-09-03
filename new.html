@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Parent">
+        <form id="infoForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="age">Age:</label>
+            <input type="number" id="age" required>
+            <label for="hobbies">Hobbies:</label>
+            <input type="text" id="hobbies" required>
+            <label for="students">Student?:</label>
+            <input type="checkbox" id="students">
+            <button class="bot" type="submit">Submit</button>
+        </form>
+        <h2>Summary</h2>
+        <div id="summary" class="summary"></div>
+        <div id="actions" style="display:none;">
+            <button id="editBtn">Edit</button>
+            <button id="deleteBtn">Delete</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
